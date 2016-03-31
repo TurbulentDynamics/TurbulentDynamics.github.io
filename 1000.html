@@ -7,6 +7,8 @@
 	</style>
 </head>
 <body>
+
+<!--
 	<script src="http://threejs.org/build/three.min.js"></script>
 
 	<script src="http://threejs.org/examples/js/controls/OrbitControls.js"></script>
@@ -20,6 +22,24 @@
 	<script src="http://threejs.org/examples/js/postprocessing/RenderPass.js"></script>
 	<script src="http://threejs.org/examples/js/postprocessing/ShaderPass.js"></script>
 	<script src="http://threejs.org/examples/js/postprocessing/BloomPass.js"></script>
+-->
+
+	<script src="three.min.js"></script>
+
+	<script src="OrbitControls.js"></script>
+
+	<script src="ConvolutionShader.js"></script>
+	<script src="CopyShader.js"></script>
+	<script src="FXAAShader.js"></script>
+
+	<script src="EffectComposer.js"></script>
+	<script src="MaskPass.js"></script>
+	<script src="RenderPass.js"></script>
+	<script src="ShaderPass.js"></script>
+	<script src="BloomPass.js"></script>
+
+
+
 	<script>
 
 
@@ -34,16 +54,23 @@
 
 			setColor = function () {};
 
+			var nx, ny, nz;
+			nx = 6;
+			ny = nx;
+			nz = nx;
+
+				
 			init();
 
 			// animations
 			// "...flash red 8x8x8. Then change 8x8x8 to green, then 6x6x6 to red."
 
+
 			var animations = [
-				{ time : 4000, rangeAndColor : [/* start i j k */1, 1, 1, /* end i j k */ 8, 8, 8, /* normalized r g b */ 1, 0, 0] },
-				{ time : 4500, rangeAndColor : [1, 1, 1,  8, 8, 8,  0.8, 0.8, 0.8] },
-				{ time : 7000, rangeAndColor : [1, 1, 1,  8, 8, 8,  0.0, 1.0, 0.0] },
-				{ time : 7500, rangeAndColor : [2, 2, 2,  7, 7, 7,  1.0, 0.0, 0.0] }
+				{ time : 4000, rangeAndColor : [/* start i j k */1, 1, 1, /* end i j k */ nx-2, ny-2, nz-2, /* normalized r g b */ 1, 0, 0] },
+//				{ time : 4500, rangeAndColor : [1, 1, 1,  8, 8, 8,  0.8, 0.8, 0.8] },
+//				{ time : 7000, rangeAndColor : [1, 1, 1,  8, 8, 8,  0.0, 1.0, 0.0] },
+//				{ time : 7500, rangeAndColor : [2, 2, 2,  7, 7, 7,  1.0, 0.0, 0.0] }
 			];
 
 			for (var a = 0; a < animations.length; a++) {
@@ -78,6 +105,8 @@
 
 				//
 
+
+
 				material = new THREE.LineBasicMaterial ({ color: 0xffffff, opacity: 1, linewidth: 3, vertexColors: THREE.VertexColors });
 
 				var base_p = [5,5,5, -5,5,5, -5,-5,5, 5,-5,5, 5,5,-5, -5,5,-5, -5,-5,-5, 5,-5,-5];
@@ -89,11 +118,13 @@
 
 				color.setDynamic (true);
 
+
+
 				var i, j, k, m, n, p;
-				for (i = 0; i < 10; i++)
-				for (j = 0; j < 10; j++)
-				for (k = 0; k < 10; k++) {
-					p = k + j * 10 + i * 100;
+				for (i = 0; i < nx; i++)
+				for (j = 0; j < ny; j++)
+				for (k = 0; k < nz; k++) {
+					p = k + j * nz + i * ny*nz;
 
 					for (m = 0; m < 24; m++) {
 						position.array[p * 24 + m] = base_p[m];
@@ -122,7 +153,7 @@
 					for (var i = i0; i <= i1; i++)
 					for (var j = j0; j <= j1; j++)
 					for (var k = k0; k <= k1; k++) {
-						var p = 24 * (k + j * 10 + i * 100);
+						var p = 24 * (k + j * ny + i * ny*nz);
 						for (var m = 0; m < 24; m += 3) {
 							color.array[p + m]     = r;
 							color.array[p + m + 1] = g;
