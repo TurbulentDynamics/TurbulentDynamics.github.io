@@ -24,6 +24,7 @@
 	<script src="http://threejs.org/examples/js/postprocessing/BloomPass.js"></script>
 -->
 
+
 	<script src="three.min.js"></script>
 
 	<script src="OrbitControls.js"></script>
@@ -59,12 +60,11 @@
 			ny = nx;
 			nz = nx;
 
-				
+
 			init();
 
 			// animations
 			// "...flash red 8x8x8. Then change 8x8x8 to green, then 6x6x6 to red."
-
 
 			var animations = [
 				{ time : 4000, rangeAndColor : [/* start i j k */1, 1, 1, /* end i j k */ nx-2, ny-2, nz-2, /* normalized r g b */ 1, 0, 0] },
