@@ -29,8 +29,8 @@ markdown: kramdown
 #theme: minima
 #theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes"
-plugins:
-  - jekyll-feed
+#plugins:
+#  - jekyll-feed
 
 include: ["_pages"]
 
@@ -82,3 +82,9 @@ defaults:
     values:
       layout: single
 
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      read_time: false

@@ -1,0 +1,11 @@
+main:
+  - title: "Product"
+    url: /product/
+  - title: "Research"
+    url: /research/
+  - title: "Technology"
+    url: /technology/
+  - title: "Contact"
+    url: /contact/
+
+
