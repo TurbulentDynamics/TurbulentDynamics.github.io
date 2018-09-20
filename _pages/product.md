@@ -4,6 +4,8 @@ title: Product
 permalink: /product/
 ---
 
-This is page
+
+
+![Product](/assets/images/sail.png)
 
 

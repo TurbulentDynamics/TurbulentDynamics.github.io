@@ -8,10 +8,10 @@ header:
   image_description: "A description of the image"
 ---
 
-
-Develop bespoke solutions for high resolution and massive scale CFD applications.  
-Run simulations smaller than a thousand cores and a million core-hours.
-Design algorithms, develop software and build specialised hardware.  
+# Machine Learning Augmenting Simulation
+* Develop bespoke solutions for high resolution and massive scale CFD applications.  
+* Normally run simulations larger than a thousand cores and a million core-hours.
+* Design algorithms, develop software and build specialised hardware.  
 
 
 
