@@ -4,7 +4,8 @@ title: Contact
 permalink: /contact/
 ---
 
-contact: niall@turbulentdynamics.com
+We look forward to hearing from you
+contact@turbulentdynamics.com
 
 
 

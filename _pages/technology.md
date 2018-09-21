@@ -3,10 +3,15 @@ layout: single
 title: Technology
 permalink: /technology/
 ---
-Our software runs on specialised systems, using X86 and GPU (and TPU in 2019).  
 
 
-We have trained a network to fill in the gaps in the large structures allowing the computation to progress using traditional techniques.  This in effect replaces grid refinement techniques.  We are now leveraging that knowledge to use ML in post processing, and in situ feature detection. 
+Developed software for specialised systems using X86 and GPU.
+
+In-house speciality is bespoke hardware to reduce the cost of large scale simulations by 80% over cloud traditional providers.
+
+Leverage Machine Learning to further reduce cost
+
+Developing ML techniques in post processing and in situ feature detection. 
 
 
 

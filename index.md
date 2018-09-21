@@ -8,10 +8,13 @@ header:
   image_description: "A description of the image"
 ---
 
-# Machine Learning Augmenting Simulation
-* Develop bespoke solutions for high resolution and massive scale CFD applications.  
-* Normally run simulations larger than a thousand cores and a million core-hours.
-* Design algorithms, develop software and build specialised hardware.  
+Core Competencies
+* Develop bespoke solutions for high resolution and massive scale CFD applications
+* Targeting simulations larger than a thousand cores and a million core-hours
+* Algorithm and HPC development
+* Assembling bespoke specialised hardware
+
+
 
 
 
