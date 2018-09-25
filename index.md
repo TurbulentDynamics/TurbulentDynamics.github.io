@@ -12,7 +12,7 @@ Core Competencies
 * Develop bespoke solutions for high resolution and massive scale CFD applications
 * Targeting simulations larger than a thousand cores and a million core-hours
 * Algorithm and HPC development
-* Assembling bespoke specialised hardware
+* In-house hardware delivering 80% reduction in costs for large scale simulations
 
 
 
