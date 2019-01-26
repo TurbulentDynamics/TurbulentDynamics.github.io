@@ -15,10 +15,9 @@
 # in the templates via {{ site.myvariable }}.
 title: Turbulent Dynamics
 email: niall@turbulentdynamics.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: >- # Turbulent Dynamics uses in-house technology to deliver 60% 
+reduction in costs with high performance computing and machine learning for 
+high-resolution turbulent aerodynamics research and visualisation.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://turbulentdynamics.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: turbulentdynam
@@ -64,6 +63,11 @@ author:
   #avatar   : "/assets/images/bio-photo.jpg"
   #bio      : "My awesome biography constrained to a sentence or two goes here."
   location : "Dublin, Zagreb, San Francisco, Melbourne" 
+
+
+header:
+    
+
 
 footer:
   links:
