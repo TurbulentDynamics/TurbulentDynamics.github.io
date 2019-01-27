@@ -3,7 +3,7 @@ layout: single
 title: Research
 permalink: /research/
 header:
-  image: /assets/images/impeller.jpg
+  image: /assets/images/banner-axis-nx3000.jpg
   image_description: "Image of an impeller"
 ---
 
