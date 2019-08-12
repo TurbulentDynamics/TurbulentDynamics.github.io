@@ -5,6 +5,8 @@ main:
     url: /research/
   - title: "Technology"
     url: /technology/
+  - title: "Resources"
+    url: /lbresources/
   - title: "Contact"
     url: /contact/
 
