@@ -4,14 +4,38 @@
 
 layout: single
 header:
-  image: /assets/images/td-logo.jpg
+  image: /assets/images/td-logo-600.jpg
   image_description: "Turbulent Dynamics Logo"
 ---
+Passionate about Performance
+
+High Performance Computing
+
+Supercomputing Services
+
+
+Turbulent Dynamics partners with the right customers to deliver the most of of High Performance Resources through highly optimised code and workflows.  Navigate the world of technology and software options .
+
+
+Turbulent Dynamics developes Maching Learning, MPI and iOS applications for both High Performance Computing (Supercomputing) edge devices (Xavier, Raspberry PI, MyriadX) and MacOS.
+
+
+
+
+primary to write and improve code and software.   We have run many multi-million core-hour simulation and 
+
+We are passionate about performance and 
+
+HPC tools
+
+
+
+HPCNow! provides its customers with solutions and technologies for dealing with the most complex problems in High Performance Computing (HPC). The company has experts in several fields, capable of providing services and solutions which cover multiple areas such as cluster design, supercomputer administration, and user supp
+
+
 
 Core Competencies
-* Develop bespoke solutions for high resolution and massive scale CFD applications
 * Targeting simulations larger than a thousand cores and a million core-hours
-* In-house hardware delivering up to 60% reduction in costs for large scale simulations
 * Algorithm and HPC development
 
 

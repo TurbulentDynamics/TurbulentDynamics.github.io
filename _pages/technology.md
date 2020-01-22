@@ -2,21 +2,22 @@
 layout: single
 title: Technology
 permalink: /technology/
+header:
+  image: /assets/images/banner-axis-nx3000.jpg
+  image_description: "Image of an impeller"
 ---
 
 
-Developed software for specialised systems using X86 and GPU
 
-In-house speciality is bespoke hardware to reduce the cost of large scale simulations by up to 60% over traditional cloud providers
-
-Leverage Machine Learning to further reduce cost
-
-Developing Machine Learning techniques in post processing and in situ feature detection 
+HPC Tools
+CUDA, C++, C, OpenMP, MPI, Python
+Nvidia tools
+Machine Learning
 
 
 
 
-![technology](/assets/images/krull.png)
+#![technology](/assets/images/krull.png)
 
 
 
