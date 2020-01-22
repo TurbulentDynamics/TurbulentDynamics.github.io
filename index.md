@@ -4,7 +4,7 @@
 
 layout: single
 header:
-  image: /assets/images/td-logo-600.jpg
+  image: assets/images/td-logo-600.jpg
   image_description: "Turbulent Dynamics Logo"
 ---
 Passionate about Performance
@@ -28,9 +28,6 @@ We are passionate about performance and
 
 HPC tools
 
-
-
-HPCNow! provides its customers with solutions and technologies for dealing with the most complex problems in High Performance Computing (HPC). The company has experts in several fields, capable of providing services and solutions which cover multiple areas such as cluster design, supercomputer administration, and user supp
 
 
 
