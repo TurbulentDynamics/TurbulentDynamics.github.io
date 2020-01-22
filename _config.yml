@@ -97,3 +97,5 @@ defaults:
       type: posts
     values:
       read_time: false
+
+theme: jekyll-theme-minimal
